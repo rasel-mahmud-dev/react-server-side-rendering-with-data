@@ -1,0 +1,97 @@
+.label,
+.input{
+  display: block;
+  width: 100%;
+}
+
+.form_container{
+  max-width: 400px;
+  margin: auto;
+}
+.input_group{
+  margin: 10px 0px;
+}
+
+.label{
+  margin-bottom: 5px;
+}
+
+.input{
+  cursor: pinter;
+  padding: 5px 8px;
+  outline: none;
+  border: 1px solid grey;
+  box-shadow: 0 0 4px 0px #687968;
+}
+.input_success{
+  border: 1px solid #22a922;
+  box-shadow: 0 0 4px 0px green;
+}
+.input_error{
+  box-shadow: 0 0 5px 0px rgb(255, 9, 9);
+  border: 1px solid rgb(255, 9, 9);
+}
+
+.error_alert{
+  margin-top: 5px;
+  color: rgb(255, 0, 0)
+}
+
+.header{
+  background: white;
+  box-shadow: 0 1px 8px 0px black;
+}
+
+.main_navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_navigation li:hover{
+  color: red !important;
+}
+  
+
+.main_nav a:hover,
+.auth_nav a:hover{
+  color: red !important;
+}
+
+.main_nav,
+.auth_nav{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main_nav a,
+.auth_nav a{
+  color: rgb(54, 54, 54);
+  margin: 0px 10px;
+  text-decoration: none;
+  padding: 10px 0px;
+  display: inline-block;
+  font: normal 600 17px roboto slab;
+}
+.active{
+  color: rgb(255, 9, 9) !important;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1{
+  color: rgb(240, 9, 209);
+  font: normal 600 33px roboto
+}

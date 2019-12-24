@@ -1,0 +1,42 @@
+
+.header{
+  background: white;
+  box-shadow: 0 1px 8px 0px black;
+}
+
+.main_navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_navigation li:hover{
+  color: red !important;
+}
+  
+
+.main_nav a:hover,
+.auth_nav a:hover{
+  color: red !important;
+}
+
+.main_nav,
+.auth_nav{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main_nav a,
+.auth_nav a{
+  color: rgb(54, 54, 54);
+  margin: 0px 10px;
+  text-decoration: none;
+  padding: 10px 0px;
+  display: inline-block;
+  font: normal 600 17px roboto slab;
+}
+.active{
+  color: rgb(255, 9, 9) !important;
+}
